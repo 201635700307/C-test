@@ -4,8 +4,11 @@ int main()
  {
   int  h;
   float x,y,d1,d2,d3,d4;
-  printf("请输入一个点(x,y):");
-  scanf_s("%f,%f",&x,&y);
+  printf("请输入一个点(x,y):\n");
+  printf("请输入该点的横坐标x=");
+  scanf_s("%f",&x);
+  printf("请输入该点的纵坐标y=");
+  scanf_s("%f",&y);
   d1=(x-2)*(x-2)+(y-2)*(y-2);          
   d2=(x-2)*(x-2)+(y+2)*(y+2);
   d3=(x+2)*(x+2)+(y+2)*(y+2);
